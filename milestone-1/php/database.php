@@ -86,16 +86,13 @@ $database = [
                 ]
             ] 
         ];    
-    
-
-
-
-
-
-
-
-
-
+/* Verifica tramite Var Dump */
+var_dump("Verifica del Database");
+var_dump($database);
+/* Chiamata Header */
+header('Content-Type: application/json'); // tramutare il mio Array in JSON
+header('Access-Control-Allow-Origin: *'); // Far leggere l'API senza bisogno di chiavi d'accesso
+echo json_encode($database);
 ?>
 
 
