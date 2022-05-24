@@ -36,7 +36,7 @@ export default {
     data() {
         return {
             // link array di oggetti postman
-            link: "https://flynn.boolean.careers/exercises/api/array/music",
+            link: "http://localhost/PHP/php-ajax-dischi/milestone-1/php/database.php",
             // Array di oggetti API
             albums:null,
             // Condizione v-else
